@@ -39,3 +39,7 @@ func canConstruct(targetString string, words []string) bool {
 
 	return table[len(targetString)]
 }
+
+// complexity
+//Time - O(m^2 * n)
+//Space - O(m)
